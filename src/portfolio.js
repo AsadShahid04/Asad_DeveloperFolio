@@ -20,26 +20,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Asad Shahid",
+  title: "Hi all, I'm Asad",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1uMdXmWNrxRxlO-IVDDFGt_ymf08lACgKd58uDJ81Fy4/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/AsadShahid04",
+  linkedin: "https://www.linkedin.com/in/asad-shahid-9553a91b0/",
+  gmail: "asadshahid623@gmail.com",
+  //gitlab: "https://gitlab.com/saadpasta",
+  //facebook: "https://www.facebook.com/saad.pasta7",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  instagram: "https://www.instagram.com/a1sad.shahid/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,8 +49,9 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I know...",
+  subTitle:
+    "CRAZY FRONT END DEVELOPER & CODER LOOKING TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -73,12 +75,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "reactjs",
@@ -89,32 +87,32 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Android Studio",
+      fontAwesomeClassname: "fab fa-android"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Confluence",
+      fontAwesomeClassname: "fab fa-confluence"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +124,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Las Positas Community College",
+      logo: require("./assets/images/LasPositasCollege.jpeg"),
+      subHeader: "Major: Computer Science",
+      duration: "June 2022 - May 2024",
+      desc: "Currently attending Las Positas to finish general education requirements before transfering to UC Davis in the Fall of 2024 for a BS in Computer Science & Engineering.",
+      descBullets: ["Member of Muslim Student Association"]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "San Joaquin Delta College",
+      logo: require("./assets/images/SanJoaquinDeltaCollege.jpeg"),
+      subHeader: "Dual-Enrolled Student",
+      duration: "June 2020 - December 2022",
+      desc: "Attended San Joquin Delta College while dual-enrolled in MHHS as a highschooler to finish general education requirements.",
+      descBullets: [
+        "Completed/in the process of completing the following courses: HIST17A, PHYSC1A, SOCIO1A, CS11, MATH 1, MATH 2, ENG1A, ENG 1B"
+      ]
     }
   ]
 };
@@ -150,7 +147,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -169,15 +166,14 @@ const techStack = {
 };
 
 // Work experience section
-
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Website Developer",
+      company: "Mountain House Muslim Association",
+      companylogo: require("./assets/images/MHMALogo.png"),
+      date: "October 2021 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -185,18 +181,22 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Marketing Research Intern",
+      company: "Grotabyte",
+      companylogo: require("./assets/images/GrotabyteLogo.jpeg"),
+      date: "March 2021 – Nov 2021",
+      descBullets: [
+        "Conducted research for technical use cases of our archive storage software",
+        "Looked into country legislation regarding consumer privacy",
+        "Highlighted comparative differences between competitors’ websites and features to help in the future development of the Grotabyte website."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Marketing Director",
+      company: "Provision Hacks",
+      companylogo: require("./assets/images/ProvisionHacksLogo.png"),
+      date: "Dec 2020 – Jul 2021",
+      desc: "One of the founding members of Provision Hacks helping build and manage social media pages, website development, contacting and gathering sponsors, and creating online digital content to post on socials."
     }
   ]
 };
@@ -210,7 +210,6 @@ const openSource = {
 };
 
 // Some big projects you have worked on
-
 const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
@@ -252,49 +251,31 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Scholar Athlete of the Year - 2022",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Was awarded the Western Athlete Conference Scholar Athlete of the Year for my sportsmanship within the Varsity Boys Tennis team at MHHS",
+      image: require("/Users/asadshahid/CodingFiles/Asad_DeveloperFolio/src/assets/images/ScholarAthleteAward.jpeg"),
+      footerLink: []
     },
     {
-      title: "Google Assistant Action",
+      title: "Introduction to SQL",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Successfully completed the Introduction to SQL course on CodeHS. I learned concepts such as basic querying, filtering queries, advanced filters, ordering results, joining tables, and also various SQL functions. ",
+      image: require("./assets/images/SQL_ICON_CODEHS.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certificate",
+          url: "https://codehs.com/certificate/PphVy9"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "Golden State Seal of Merit Award Winner",
+      subtitle:
+        "The Golden State Seal Merit Diploma is given to seniors who have demonstrated mastery of the high school curriculum in at least six subject areas four of which are English-language arts, mathematics, science, and U.S. history, with the remaining two subject matter areas selected by the student. The seal is awarded jointly by the State Board of Education and the State Superintendent of Public Instruction.",
+      image: require("./assets/images/GoldenStateSealofMerit.png"),
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -321,13 +302,12 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
-// Talks Sections
-
+//TO-DO: Work on Testimonials Section
 const talkSection = {
-  title: "TALKS",
+  title: "TESTIMONIALS",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
@@ -340,7 +320,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -353,21 +333,21 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  //number: "(408)-430-2623",
+  email_address: "asadshahid623@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "a1sadshahid", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
