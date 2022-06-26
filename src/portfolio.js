@@ -23,7 +23,7 @@ const greeting = {
   username: "Asad Shahid",
   title: "Hi all, I'm Asad",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications using some cool modern libraries and frameworks."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1uMdXmWNrxRxlO-IVDDFGt_ymf08lACgKd58uDJ81Fy4/edit?usp=sharing", // Set to empty to hide the button
@@ -36,6 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/AsadShahid04",
   linkedin: "https://www.linkedin.com/in/asad-shahid-9553a91b0/",
   gmail: "asadshahid623@gmail.com",
+  twitter: "https://twitter.com/a1sadshahid",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
   //medium: "https://medium.com/@saadpasta",
@@ -124,28 +125,37 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Las Positas Community College",
+      schoolName: "Las Positas College",
       logo: require("./assets/images/LasPositasCollege.jpeg"),
       subHeader: "Major: Computer Science",
       duration: "June 2022 - May 2024",
-      desc: "Currently attending Las Positas to finish general education requirements before transfering to UC Davis in the Fall of 2024 for a BS in Computer Science & Engineering.",
+      desc: "Currently attending Las Positas to finish IGETC general education requirements before transfering to UC Davis through the TAG program in the Fall of 2024 for a BS in Computer Science & Engineering.",
       descBullets: ["Member of Muslim Student Association"]
     },
     {
       schoolName: "San Joaquin Delta College",
-      logo: require("./assets/images/SanJoaquinDeltaCollege.jpeg"),
+      logo: require("./assets/images/SanJoaquinDeltaCollege.png"),
       subHeader: "Dual-Enrolled Student",
       duration: "June 2020 - December 2022",
       desc: "Attended San Joquin Delta College while dual-enrolled in MHHS as a highschooler to finish general education requirements.",
       descBullets: [
         "Completed/in the process of completing the following courses: HIST17A, PHYSC1A, SOCIO1A, CS11, MATH 1, MATH 2, ENG1A, ENG 1B"
       ]
+    },
+    /*
+    {
+      schoolName: "University of California Davis",
+      logo: require("./assets/images/UCDavisLogo.png"),
+      subHeader: "Major: Computer Science & Engineering",
+      duration: "August 2024 - May 2026",
+      desc: "Will be tranferring to UC Davis via the Transfer admission guarantee (TAG) program from Las Positas College in 2024"
+      //descBullets: [""]
     }
+    */
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
   viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
@@ -174,11 +184,8 @@ const workExperiences = {
       company: "Mountain House Muslim Association",
       companylogo: require("./assets/images/MHMALogo.png"),
       date: "October 2021 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "A collaborative coding project developed by future engineers in high school/college. The MHMA MCE is a website for the local Mountain House community to organize local community events, classes, praying schedules, etc. Created using:",
+      descBullets: ["React.js", "MongoDB", "SCSS", "HTML"]
     },
     {
       role: "Marketing Research Intern",
@@ -210,6 +217,7 @@ const openSource = {
 };
 
 // Some big projects you have worked on
+//TO-DO: Work on adding my own bigProjects!
 const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
@@ -238,7 +246,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
