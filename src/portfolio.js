@@ -55,12 +55,10 @@ const skillsSection = {
     "CRAZY FRONT END DEVELOPER & CODER LOOKING TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Highly knowledgeable on the programming languages of today"),
+    emoji("⚡ Experience in Data Science and Artificial Intelligence")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -108,12 +106,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "git",
+      skillName: "Github",
       fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "Confluence",
       fontAwesomeClassname: "fab fa-confluence"
+    },
+    {
+      skillName: "Slack",
+      fontAwesomeClassname: "fab fa-slack"
+    },
+    {
+      skillName: "Discord",
+      fontAwesomeClassname: "fab fa-discord"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -135,7 +141,7 @@ const educationInfo = {
     {
       schoolName: "San Joaquin Delta College",
       logo: require("./assets/images/SanJoaquinDeltaCollege.png"),
-      subHeader: "Dual-Enrolled Student",
+      subHeader: "Part-time Student",
       duration: "June 2020 - December 2022",
       desc: "Attended San Joquin Delta College while dual-enrolled in MHHS as a highschooler to finish general education requirements.",
       descBullets: [
