@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications using some cool modern libraries and frameworks."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1uMdXmWNrxRxlO-IVDDFGt_ymf08lACgKd58uDJ81Fy4/edit?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1Oa64WWa_t5SzLMts3AHyJfgQINjCX2xt/edit?usp=sharing&ouid=111821426187858764882&rtpof=true&sd=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -190,8 +190,8 @@ const workExperiences = {
       company: "Mountain House Muslim Association",
       companylogo: require("./assets/images/MHMALogo.png"),
       date: "October 2021 – Present",
-      desc: "A collaborative coding project developed by future engineers in high school/college. The MHMA MCE is a website for the local Mountain House community to organize local community events, classes, praying schedules, etc. Created using:",
-      descBullets: ["React.js", "MongoDB", "SCSS", "HTML"]
+      desc: "A collaborative coding project developed by future engineers in high school/college. The MHMA MCE is a website for the local Mountain House community to organize local community events, classes, praying schedules, etc.",
+      //descBullets: ["React.js", "MongoDB", "SCSS", "HTML"]
     },
     {
       role: "Marketing Research Intern",
@@ -205,7 +205,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Marketing Director",
+      role: "Marketing and Content Manager",
       company: "Provision Hacks",
       companylogo: require("./assets/images/ProvisionHacksLogo.png"),
       date: "Dec 2020 – Jul 2021",
