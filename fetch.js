@@ -31,7 +31,6 @@ if (USE_GITHUB_DATA === "true") {
   user(login:"${GITHUB_USERNAME}") { 
     name
     bio
-    isHireable
     avatarUrl
     location
     pinnedItems(first: 6, types: [REPOSITORY]) {

@@ -332,6 +332,15 @@ const podcastSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
+// Resume Section
+const resumeSection = {
+  title: "Resume",
+  subtitle: "Feel free to download my resume",
+
+  // Please Provide with Your Podcast embeded Link
+  display: true // Set false to hide this section, defaults to true
+};
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
@@ -346,6 +355,8 @@ const twitterDetails = {
   userName: "a1sadshahid", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
+
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -363,5 +374,7 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  isHireable,
+  resumeSection
 };
